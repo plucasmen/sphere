@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>top.scope</groupId>
+        <artifactId>sphere</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>top.scope</groupId>
-    <artifactId>sphere</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-
-        <module>sphere-common</module>
-        <module>sphere-dao</module>
-        <module>sphere-service</module>
-        <module>sphere-web</module>
-        <module>sphere-manager</module>
-    </modules>
+    <artifactId>sphere-manager</artifactId>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>

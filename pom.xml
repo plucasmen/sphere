@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
 
-        <module>sphere-common</module>
+        <module>common</module>
         <module>sphere-dao</module>
         <module>sphere-service</module>
         <module>sphere-web</module>

@@ -14,7 +14,6 @@
         <module>sphere-dao</module>
         <module>sphere-service</module>
         <module>sphere-web</module>
-        <module>sphere-manager</module>
     </modules>
 
     <properties>
